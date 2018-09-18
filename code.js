@@ -15,7 +15,7 @@ function GetValue()
 function add_book_logo()
 {
     //create image name
-    var titleName = title + ".jpg";
+    var titleName = "photos/" + title + ".jpg";
     // alert(titleName);
     
     //pass and format image name
