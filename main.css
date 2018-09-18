@@ -1,0 +1,59 @@
+body {
+    background-color: #c3cbd8;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    background-color: #062F4F;
+    font-family: 'Alegreya SC';
+}
+
+h2 {
+    margin-left: 50px;
+}
+
+p {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 1.5vw;
+    color: #062F4F;
+    font-family: 'Audiowide';
+}
+
+p2 {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 3vw;
+    color: white;
+    font-family: 'Alegreya SC';
+    background-color: #062F4F;
+}
+
+input {
+    margin-left: 45px;
+    width: 10vw;
+    height: 3.5vw;
+    font-size: 1.6vw;
+    
+}
+
+input:hover {
+   background-color: #B1A296;
+   color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #7395AE;
+}
+
+href {
+    font-size: 3vw;
+}

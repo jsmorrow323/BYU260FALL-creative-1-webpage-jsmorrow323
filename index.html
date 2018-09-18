@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <header>
+    
+    <!-- Font Inclusion -->
+    <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    
+    <!-- Tab Logo -->
+    <link rel="shortcut icon" type="image/x-icon" src="logo.jpg" />
+    
+    <!-- Links to other resources -->
+    <script type="text/javascript" src="code.js"></script>
+    <link rel="stylesheet" href="main.css">
+    
+    <title>Brandon Sanderson Book Selector</title>
+    
+    </header>
+        <body>
+           <h1>Brandon Sanderson Book Selector</h1> 
+        
+            <p>Welcome to the random Brandon Sanderson Book Selector. Simply click "generate" to choose your next adventure, then "display" to see a picture of the cover.</p>
+            
+            <input type="button" id="btnSearch" value="Generate" onclick="GetValue();" />
+            <p2 id="message" ></p2>
+            
+            <input type="button" id="btnSearch" value="Display" onclick = "add_book_logo();" />
+            <p id ="img" > </p>
+            
+            <p>
+                If you are interested in learning more about the works of Brandon Sanderson...
+                <a href=https://brandonsanderson.com/books/ target="_blank">Click Here!</a>
+            </p>
+            
+            <input type="button" id="btnSearch" value="Clear" onclick = "clearPage();" />
+            <p>Book Cover:</p>
+            
+        </body>
+</html>
