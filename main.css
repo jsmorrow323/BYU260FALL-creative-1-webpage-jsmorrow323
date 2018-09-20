@@ -42,7 +42,7 @@ input {
 }
 
 input:hover {
-   background-color: #B1A296;
+   background-color: #062F4F;
    color: white;
 }
 
@@ -51,7 +51,7 @@ a {
 }
 
 a:hover {
-    color: #7395AE;
+    color: #062F4F;
 }
 
 href {

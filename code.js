@@ -1,17 +1,5 @@
 var title = "";
 
-function GetValue()
-{
-    var booklist = new Array("Mistborn","Alloy of Law","Elantris","The Emperors Soul","The Rithmatist","The Stormlight Archive","Warbreaker","Alcatraz v.s. the Evil Librarians","Legion","Steelheart","WhiteSand","First Born","Defending Elysium","Perfect State","Unfettered","Armored","Games Creatures Play","Shadows Beneath","Skyward");
-    var random = booklist[Math.floor(Math.random() * booklist.length)];
-    
-    //alert(random);
-    document.getElementById("message").innerHTML = random;
-    
-    title = random;
-    return title;
-}
-
 function add_book_logo()
 {
     //create image name
@@ -41,6 +29,18 @@ function show_image(src, width, height, alt)
     
     //tab out 50px
     img.style.marginLeft = "50px";
+}
+
+function GetValue()
+{
+    var booklist = new Array("Mistborn","Alloy of Law","Elantris","The Emperors Soul","The Rithmatist","The Stormlight Archive","Warbreaker","Alcatraz v.s. the Evil Librarians","Legion","Steelheart","WhiteSand","First Born","Defending Elysium","Perfect State","Unfettered","Armored","Games Creatures Play","Shadows Beneath","Skyward");
+    var random = booklist[Math.floor(Math.random() * booklist.length)];
+    
+    //alert(random);
+    document.getElementById("message").innerHTML = random;
+    
+    title = random;
+    return title;
 }
 
 function clearPage()
